@@ -14,7 +14,7 @@ def decode(de_password):
     old_pass = []
     for ii in range(len(de_password)):
         old_digit = int(de_password(ii)) - 3
-        old_pass = old_pass + old_digit
+        old_pass.append(old_digit)
         return old_pass
 
 # Press the green button in the gutter to run the script.
